@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="n-wrapper">
             <div className="n-left">
                 <div className="n-name">D.R Tailors</div>
-                <span>toggle</span>
+                <span><i class="fa-solid fa-toggle-on"></i></span>
             </div>
             <div className="n-right">
                 <div className="n-list">
@@ -20,7 +20,7 @@ const Navbar = () => {
                         <li>Testionomials</li>
                     </ul>
                 </div>
-                <button className="button">
+                <button className="button n-button">
                 Contact us
                 </button>
             </div>

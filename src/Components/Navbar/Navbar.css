@@ -28,11 +28,17 @@
 .n-list>ul{
     display: flex;
     gap: 2rem;
-    align-items: center;
+    margin-right: 4rem;
 }
 .n-list>ul>li:hover{
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
     color: var(--orange);
+}
+/* .n-button{
+    flex:2;
+} */
+.fa-toggle-on{
+    font-size: 16px;
 }

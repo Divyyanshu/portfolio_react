@@ -1,0 +1,40 @@
+.intros{
+display: flex;
+height: 78vh;
+margin-top: 6rem;
+}
+.i-left{
+    flex: 1;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.i-name{
+    display: flex;
+    flex-direction: column;
+}
+.i-name> :nth-child(1){
+    font-size: 4rem;
+    color: var(--black);
+    font-weight: bold;
+}
+.i-name> :nth-child(2){
+    font-size: 3rem;
+    color: var(--orange);
+    font-weight: bold;
+}
+.i-name :nth-child(3){
+font-size: .8rem;
+font-weight: 100;
+color: var(--gray);
+}
+.i-button{
+    height: 1.5rem;
+    width: 3.3rem;
+}
+
+.i-right{
+    flex: 1;
+}
