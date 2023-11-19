@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <div className="n-wrapper">
             <div className="n-left">
-                <div className="n-name">D.R Tailors</div>
+                <div className="n-name">TailorSoftWare</div>
                 <span><i class="fa-solid fa-toggle-on"></i></span>
             </div>
             <div className="n-right">
