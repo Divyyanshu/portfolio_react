@@ -1,6 +1,6 @@
 import React from 'react';
 import './Services.css';
-
+import Resume from '../../Components/Services/resume 0.2.pdf'
 
 const Services = () => {
   return (
@@ -11,9 +11,9 @@ const Services = () => {
     <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro magnam
     <br />
 consectetur adipisicing elit. Dolor, porro.</span>
-<button className="button s-button">
+<a href={Resume} download><button className="button s-button">
 Download CV
-</button>
+</button></a>
     </div>
     <div className="cards">
     i am rifht side
