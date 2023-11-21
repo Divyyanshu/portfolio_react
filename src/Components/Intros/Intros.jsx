@@ -22,7 +22,7 @@ const Intros = () => {
     <span>DIVYANSHU TAILOR</span>
     <span>I am a fontend WEB or APP developer currently iam working on mern stack Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur libero commodi id amet omnis, autem rem ad? Consequatur, impedit repellendus.</span>
     </div>
-    <div className="i-button button">HIRE ME</div>
+    <div className="i-button button">Hire Me</div>
     <div className="i-icons">
     <img src={Github} alt="" />
     <img src={Linkdin} alt="" />

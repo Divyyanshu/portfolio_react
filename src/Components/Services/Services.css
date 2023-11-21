@@ -3,7 +3,7 @@
     display: flex;
     padding: 0rem 3rem 0rem 3rem;
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .awesome{
     display: flex;
@@ -28,7 +28,7 @@ font-size: 1rem;
 .s-button{
     height: 2.5rem;
     width: 10rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .cards{
     position: relative;

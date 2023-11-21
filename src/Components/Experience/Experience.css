@@ -1,18 +1,18 @@
 .experience{
-    height: 33vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10rem;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 .achivements{
     display: flex;
     flex-direction: column;
 }
 .circle {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     background: white;
     border-radius: 100%;
     position: relative;
