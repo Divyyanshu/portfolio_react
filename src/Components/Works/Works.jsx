@@ -47,6 +47,7 @@ const Works = () => {
     {/* Background Circles */}
     <div className="w-backCircle blueCircle"></div>
     <div className="w-backCircle yellowCircle"></div>
+    <div className="w-backCircle redCircle"></div>
     </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 .works{
-    height: 90vh;
+    height: 80vh;
     padding: 0 3rem 0 3rem ;
     display: flex;
     margin-top: 5rem;
@@ -15,7 +15,7 @@
     position: relative;
     box-shadow: var(--smboxShadow);
     border-radius: 50%;
-    top: 2rem;
+    top: 5rem;
     background: white;
 }
 .w-mainCircle>*{
@@ -30,11 +30,11 @@
     top: 5rem;
 }
 .w-mainCircle>:nth-child(3){
-    left: 6.5rem;
+    left: 6rem;
     top: 5.5rem;
 }
 .w-mainCircle>:nth-child(4){
-    left: 15.5rem;
+    left: 14rem;
     top: 6.1rem;
 }
 .w-mainCircle>:nth-child(5){
@@ -54,24 +54,30 @@ background: white;
 box-shadow: var(--smboxShadow);
 }
 .w-secoundCircle>img{
-    transform: scale(0.6);
+    transform: scale(0.4);
 }
 .w-backCircle{
     position: absolute;
-    height: 13rem;
-    width: 13rem;
+    height: 14rem;
+    width: 14rem;
     border-radius: 100%;
     z-index: -1;
 }
 .blueCircle{
     background-color: #1949B8;
-    left: 10rem;
-    top: 0rem;
+    left: 4.5rem;
+    top: -4rem;
     box-shadow: var(--smboxShadow);
 }
 .yellowCircle{
     background-color: #F5C32C;
-    left: 10rem;
+    left: 8rem;
     top: 5rem;
+    box-shadow: var(--smboxShadow);
+}
+.redCircle{
+    background-color: #C60C30;
+    left: -4.5rem;
+    top: 2.5rem;
     box-shadow: var(--smboxShadow);
 }
